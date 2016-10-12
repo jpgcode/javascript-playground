@@ -1,0 +1,11 @@
+import isPalindrome from './modules/isPalindrome';
+import countVowels from './modules/countVowels';
+import countConsonants from './modules/countConsonants';
+import factorial from './modules/factorial';
+import fibonacci from './modules/fibonacci';
+
+console.log('isPalindrome: ', isPalindrome('sas'));
+console.log('Vowels: ', countVowels('Pedro222'));
+console.log('Consonants:', countConsonants('Hola'));
+console.log(factorial(4));
+console.log(fibonacci(7));
