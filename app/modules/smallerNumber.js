@@ -7,11 +7,7 @@
 const smallerNumber = arr => {
 
 	const number = arr.reduce((prev, curr) => {
-		if(prev > curr || prev === 0){
-			return curr;
-		}else{
-			return prev;
-		}
+		return (prev > curr || prev === 0)? curr : prev;
 	}, 0);
 
 	return number;
