@@ -4,14 +4,6 @@
  Author: Jose Pablo Granados <jpgcodecr@gmail.com>
 */
 
-const smallerNumber = arr => {
-
-	const number = arr.reduce((prev, curr) => {
-		return (prev > curr || prev === 0)? curr : prev;
-	}, 0);
-
-	return number;
-
-}
+const smallerNumber = arr => Math.min(...arr);
 
 export default smallerNumber;
