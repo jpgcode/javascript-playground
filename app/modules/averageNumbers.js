@@ -9,7 +9,7 @@ import sumNumbers from './sumNumbers';
 const averageNumbers = arr => {
 
 	const digits = arr.length;
-	const sum    = sumNumbers(arr);
+	const sum = sumNumbers(arr);
 
 	const getAverage = (sum, digits) => sum/digits;
 

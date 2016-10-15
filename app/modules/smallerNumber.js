@@ -4,6 +4,12 @@
  Author: Jose Pablo Granados <jpgcodecr@gmail.com>
 */
 
-const smallerNumber = arr => Math.min(...arr);
+const smallerNumber = arr => {
+	if(Array.isArray(arr)){
+		return Math.min(...arr);
+	}else{
+		throw new Error('The argument passed should be an array');
+	}
+};
 
 export default smallerNumber;
